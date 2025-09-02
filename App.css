@@ -1,0 +1,152 @@
+.error {
+  color: #e74c3c;
+  font-size: 0.98rem;
+  margin-top: 4px;
+  font-weight: 500;
+}
+/* Form styling for CreateStudent */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #674188;
+}
+
+.form-group input[type="text"] {
+  padding: 10px 12px;
+  border: 1px solid #bfc9d9;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input[type="text"]:focus {
+  border-color: #674188;
+}
+
+body {
+	color: #131842;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-radius: 12px;
+	box-shadow: 0 0 12px rgba(0,0,0,0.1);
+	padding: 25px;
+  border-top: 4px solid #674188;
+}
+
+h2 {
+	color: #674188;
+	margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.table-container {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.student-table {
+  margin-top: 18px;
+  margin-bottom: 24px;
+  min-width: 600px;
+}
+
+.btn-add {
+  margin-bottom: 18px;
+}
+
+table {
+  width: 100px;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+	border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+	
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+/* Ensure action buttons are in a single line */
+.actions-cell {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+th {
+	background-color: #674188;
+	color: #FFFFFF;
+  font-weight: 500;
+	text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+	background: #E2BFD9;
+}
+
+tr:hover {
+  background: #ebe9e8;
+}
+
+.errorMsg{
+  color: #c82333;
+  margin-bottom: 15px;
+}
+.btn{
+  display: inline-block;
+  margin-right: 15px;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.btn-primary{
+  background-color: #674188;
+}
+.btn-danger{
+  background-color: #dc3545;
+}
+.btn-info{
+  background-color: #33bee5;
+}
+.btn-hover{
+  transform: translateY(-2px);
+}
+.btn-add{
+  background-color: #533366;
+}
+
+
+.btn-save {
+  background-color: #28a745;
+}
+.btn-back {
+  background-color: red;
+}
