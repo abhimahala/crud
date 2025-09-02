@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "zoya",
+      "place": "mumbai",
+      "phone": "7689808779"
+    },
+    {
+      "id": "2",
+      "name": "kabir",
+      "place": "jaipur",
+      "phone": "5485948594"
+    },
+    {
+      "id": "4",
+      "name": "KARNAL LUTHRA",
+      "place": "CHENNAI",
+      "phone": "6948928590"
+    },
+    {
+      "id": "5",
+      "name": "PATHAN",
+      "place": "KALKATA",
+      "phone": "4359485985"
+    },
+    {
+      "id": "7",
+      "name": "Tiger",
+      "place": "Chandigarh",
+      "phone": "5689589023"
+    },
+    {
+      "id": "6",
+      "name": "Raghu",
+      "place": "Hydrabad",
+      "phone": "7689808779"
+    }
+  ]
+}
